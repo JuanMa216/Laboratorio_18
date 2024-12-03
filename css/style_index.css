@@ -1,0 +1,37 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+div{
+    display: grid;
+    grid-template-areas:
+    "nav nav nav nav"
+    "header header header header"
+    "s s s s"
+    "f1 f1 f2 f2";
+    height: 100vh;
+}
+
+#nav{
+    grid-area: nav;
+    background-color: azure;
+}
+
+#header{
+    grid-area: header;
+    background-color: antiquewhite;
+}
+
+#s{
+    grid-area: s;
+    background-color: beige;
+}
+
+#f1{
+    grid-area: f1;
+    background-color: rgb(214, 176, 114);
+    color: black;
+}
+
+#f2{
+    grid-area: f2;
+    background-color: rgb(155, 180, 180);
+    color: black;
+}

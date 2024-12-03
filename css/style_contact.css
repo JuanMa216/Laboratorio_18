@@ -1,3 +1,4 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
 div{
     display: grid;
     grid-template-areas: 
@@ -11,30 +12,50 @@ div{
 
 #nav{
     grid-area: n;
-    background-color: rgb(157, 197, 197);
+    
 }
 
 #section{
     grid-area: s;
-    background-color: rgb(122, 183, 183);
+    
 }
 
 #article{
     grid-area: a;
-    background-color: antiquewhite;
+   
 }
 
 #side1{
     grid-area: side1;
-    background-color: bisque;
+    
 }
 
 #side2{
     grid-area: side2;
-    background-color: rgb(214, 214, 197);
+    
 }
 
 #f {
     grid-area: f;
-    background-color: rgb(148, 170, 188);
+   
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
