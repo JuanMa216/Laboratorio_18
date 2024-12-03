@@ -1,0 +1,40 @@
+div{
+    display: grid;
+    grid-template-areas: 
+    "n n n n"
+    "s s s s"
+    "a a side1 side2"
+    "f f f f"
+    ;
+    height: 100vh;
+}
+
+#nav{
+    grid-area: n;
+    background-color: rgb(157, 197, 197);
+}
+
+#section{
+    grid-area: s;
+    background-color: rgb(122, 183, 183);
+}
+
+#article{
+    grid-area: a;
+    background-color: antiquewhite;
+}
+
+#side1{
+    grid-area: side1;
+    background-color: bisque;
+}
+
+#side2{
+    grid-area: side2;
+    background-color: rgb(214, 214, 197);
+}
+
+#f {
+    grid-area: f;
+    background-color: rgb(148, 170, 188);
+}
